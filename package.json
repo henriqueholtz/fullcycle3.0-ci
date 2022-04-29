@@ -1,7 +1,7 @@
 {
   "name": "fullcycle3.0-ci",
   "version": "1.0.0",
-  "description": "fullcycle3.0-ci",
+  "description": "fullcycle3.0-ci (FullCycle course)",
   "main": "index.js",
   "scripts": {
     "test": "npx tsc src/*.ts && jest --coverage",
