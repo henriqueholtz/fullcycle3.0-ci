@@ -4,8 +4,8 @@
   "description": "fullcycle3.0-ci",
   "main": "index.js",
   "scripts": {
-    "test": "npx tsc *.ts && jest --coverage",
-    "start": "npx tsc index.ts && node index.js"
+    "test": "npx tsc src/*.ts && jest --coverage",
+    "start": "npx tsc src/index.ts && node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@types/jest": "^27.4.1",
-    "jest": "^28.0.2"
+    "jest": "^28.0.2",
+    "sonar-scanner": "^3.1.0"
   }
 }
