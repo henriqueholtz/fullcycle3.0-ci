@@ -1,11 +1,11 @@
 name: Run Sonar Cloud
 
 on:
-  push:
-    branches: [master]
+  pull_request:
+    types: [opened, reopened]
 
 jobs:
-  build:
+  install-tests-sonarcloud:
     runs-on: ubuntu-latest
 
     steps:
